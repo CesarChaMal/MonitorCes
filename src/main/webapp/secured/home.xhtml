@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:f="http://java.sun.com/jsf/core"
+	xmlns:h="http://java.sun.com/jsf/html"
+	xmlns:ui="http://java.sun.com/jsf/facelets"
+	xmlns:p="http://primefaces.org/ui">
+
+
+<h:body>
+    <ui:composition template="/WEB-INF/template/layout.xhtml">
+
+        <ui:define name="title">Home</ui:define>
+
+        <ui:define name="content">
+			<style>
+				.container {
+				    margin-left: 0px;
+				    margin-right: 0px;
+				    padding-left: 0px!important;
+				    padding-right: 0px!important;
+				    padding-top: 0px!important;
+				}
+			</style>
+			
+			<h:form>
+				<section class="contain">
+					<div class="descripciondiv">
+						<div class="descripcion">
+							<span class="orange">Solucion Integral</span><span class="blue">
+								para monitoreo de exteriores</span>
+						</div>
+					</div>
+					<div class="izq">
+						<iframe width="480" height="240"
+							src="https://www.youtube.com/embed/ukwP71pmRMg" frameborder="0"></iframe>
+					</div>
+					</section>
+			</h:form>
+        </ui:define>
+    </ui:composition>
+
+</h:body>
+</html>

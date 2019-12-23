@@ -1,0 +1,16 @@
+.clase {
+	bottom: 0px;
+	display: inline-block;
+	float: right;
+	top: 130px;
+	position: relative;
+}
+
+.monitorizacion {
+	border: 1px solid #CEDCE7;	
+	background: #E8F0F4!important;
+	color: black;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 1%;
+}
